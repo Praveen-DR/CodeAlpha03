@@ -1,1 +1,3 @@
-# CodeAlpha03
+# Basic ChatBot
+
+The provided Python program creates a text-based chatbot using the NLTK library, which enables conversational interactions with users. The chatbot is built on pattern matching, where user inputs are matched against predefined regular expression patterns to generate appropriate responses. These patterns and responses are defined in pairs, such as greeting exchanges or inquiries about the chatbot's identity. The program leverages NLTK's `Chat` class to handle the conversation logic, with a reflection mechanism to personalize responses by substituting keywords. When the chatbot is run, it enters an interactive loop where it continuously prompts the user for input, responds based on the matched patterns, and exits when the user types "quit". This basic chatbot implementation showcases the foundational principles of natural language processing and pattern matching to simulate a conversational agent.
